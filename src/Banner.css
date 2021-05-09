@@ -24,11 +24,18 @@
     max-width: 360px;
     height: 80px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .banner__desc {
       max-width: 250px;
     }
+    .banner__title {
+      font-size: 2rem;
+    }
+    .banner__content {
+      padding-top: 120px;
+    }
   }
+  
 .banner__button{
     cursor: pointer;
     color: white;
